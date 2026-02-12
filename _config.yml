@@ -2,7 +2,7 @@ title: teknikebana
 description: A blog about technology and craft
 author: Max Leonard & Anne-Marie Litak
 url: "https://www.tekikebana.com"
-baseurl: "/teknikebana"
+baseurl: ""
 permalink: /:title/
 
 theme: null
