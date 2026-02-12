@@ -1,0 +1,38 @@
+title: teknikebana
+description: A blog about technology and craft
+author: Max Leonard & Anne-Marie Litak
+url: "https://www.tekikebana.com"
+baseurl: "/teknikebana"
+permalink: /:title/
+
+theme: null
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .gitignore
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
