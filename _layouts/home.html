@@ -2,6 +2,12 @@
 layout: default
 ---
 <div class="home">
+  {% if site.image %}
+  <figure class="site-hero">
+    <img src="{{ site.image | relative_url }}" alt="{{ site.title }} featured image" loading="eager" fetchpriority="high">
+  </figure>
+  {% endif %}
+
   {% assign stripped_content = content | strip %}
   {% if stripped_content != "" %}
   <section class="intro">

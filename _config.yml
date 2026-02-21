@@ -3,6 +3,7 @@ description: A blog about technology and craft
 author: Max Leonard & Anne-Marie Litak
 url: "https://www.tekikebana.com"
 baseurl: ""
+image: "/assets/images/main-image.jpg"
 permalink: /:title/
 
 theme: null

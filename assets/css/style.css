@@ -219,6 +219,16 @@ li {
   margin-bottom: var(--space-xl);
 }
 
+.site-hero {
+  margin: 0 0 var(--space-lg);
+}
+
+.site-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .post-preview {
   padding: var(--space-lg) 0;
   border-bottom: 1px solid var(--color-border);

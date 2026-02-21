@@ -1,3 +1,4 @@
+# Jekyll / Ruby build artifacts
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -5,3 +6,31 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
+
+# Local dependencies / caches
+node_modules/
+vendor/bundle/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs / temp
+*.log
+tmp/
+coverage/
+
+# Local tool folders
+.claude/
